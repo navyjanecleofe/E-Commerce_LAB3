@@ -23,4 +23,10 @@
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		
+		<!-- Include FlexSlider CSS and JavaScript files -->
+		<link rel="stylesheet" href="<?= base_url(); ?>ecommerce/themes/flexslider/flexslider.css" type="text/css" media="screen" />
+		<script src="<?= base_url(); ?>ecommerce/themes/flexslider/jquery.flexslider.js"></script>
+    
 </head>

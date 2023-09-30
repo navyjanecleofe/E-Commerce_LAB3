@@ -53,4 +53,14 @@
 				});
 			});
 		</script>
+		<script>
+			$(document).ready(function () {
+				$('.flexslider').flexslider({
+					animation: 'slide', // Choose the animation type (slide, fade, etc.)
+					controlNav: true,   // Show navigation controls
+					directionNav: true // Show direction navigation (next/prev)
+				});
+			});
+		</script>
+
 </div>
