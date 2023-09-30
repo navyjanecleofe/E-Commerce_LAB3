@@ -1,0 +1,107 @@
+CRITICAL - 2023-09-30 04:10:38 --> include(views/admin/adminlogin/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\adminlog.php on line 8.
+ 1 APPPATH\Views\adminlog.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(views/admin/adminlogin/header.php): Failed to open stream: No such file or directory', 'C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Views\\adminlog.php', 8)
+ 2 APPPATH\Views\adminlog.php(8): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Views\\adminlog.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adminlog', [], true)
+ 6 APPPATH\Controllers\AdminController.php(11): view('adminlog')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
+CRITICAL - 2023-09-30 05:43:01 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\AdminController.php(36): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->authreg()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
+CRITICAL - 2023-09-30 06:24:07 --> Undefined variable $main
+in APPPATH\Controllers\AdminController.php on line 45.
+ 1 APPPATH\Controllers\AdminController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $main', 'C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Controllers\\AdminController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->authlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
+CRITICAL - 2023-09-30 06:28:04 --> Undefined variable $userModel
+in APPPATH\Controllers\AdminController.php on line 45.
+ 1 APPPATH\Controllers\AdminController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Controllers\\AdminController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->authlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
+CRITICAL - 2023-09-30 06:29:58 --> Undefined variable $userModel
+in APPPATH\Controllers\AdminController.php on line 46.
+ 1 APPPATH\Controllers\AdminController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Controllers\\AdminController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->authlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
+CRITICAL - 2023-09-30 06:30:17 --> Undefined variable $main
+in APPPATH\Controllers\AdminController.php on line 46.
+ 1 APPPATH\Controllers\AdminController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $main', 'C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Controllers\\AdminController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->authlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
+CRITICAL - 2023-09-30 07:44:11 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\ecommerce.php on line 7.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce', [], true)
+ 3 APPPATH\Controllers\UserController.php(15): view('ecommerce', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->home()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
+CRITICAL - 2023-09-30 08:11:15 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\ecommerce\body.php on line 71.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce/body', [], true)
+ 3 APPPATH\Views\ecommerce.php(6): view('ecommerce/body')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Views\\ecommerce.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce', [], true)
+ 7 APPPATH\Controllers\UserController.php(15): view('ecommerce', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
+CRITICAL - 2023-09-30 08:11:38 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\ecommerce\body.php on line 71.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce/body', [], true)
+ 3 APPPATH\Views\ecommerce.php(6): view('ecommerce/body')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Views\\ecommerce.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce', [], true)
+ 7 APPPATH\Controllers\UserController.php(15): view('ecommerce', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
+CRITICAL - 2023-09-30 08:22:38 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\ecommerce\body.php on line 94.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce/body', [], true)
+ 3 APPPATH\Views\ecommerce.php(6): view('ecommerce/body')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Views\\ecommerce.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce', [], true)
+ 7 APPPATH\Controllers\UserController.php(15): view('ecommerce', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')
