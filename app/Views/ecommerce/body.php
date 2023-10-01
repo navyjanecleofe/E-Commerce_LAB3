@@ -11,7 +11,7 @@
 							<li><a href="#">My Account</a></li>
 							<li><a href="cart.html">Your Cart</a></li>
 							<li><a href="checkout.html">Checkout</a></li>					
-							<li><a href="register.html">Login</a></li>		
+							<li><a href="adminlog.php">Login</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -79,24 +79,28 @@
 											</span>
 										</h4>
 										<div id="myCarousel" class="myCarousel carousel slide">
-											<div class="carousel-inner">
-												<div class="active item">
-													<ul class="thumbnails" style="display: flex; justify-content: center; align-items: center;">
-														<?php foreach ($items as $i): ?>
-														<li class="span3" style="margin: 0 10px;">
-															<div class="product-box">
-																<span class="sale_tag"></span>
-																<p><a href="product_detail.html"><img src="<?= base_url(); ?>ecommerce/themes/images/ladies/1.jpg" alt="" /></a></p>
-																<h3><a href="product_detail.html"><?= $i['name']; ?></a></h3>
-																<h4><?= $i['description']; ?></h4>
-																<h4><?= $i['price']; ?></h4>
-															</div>
-														</li>
-														<?php endforeach; ?>
-													</ul>
-												</div>
+										<div class="carousel-inner">
+											<div class="active item">
+												<ul class="thumbnails" style="display: flex; justify-content: center; align-items: center;">
+													<?php foreach ($items as $i): ?>
+													<li class="span3" style="margin: 0 10px;">
+														<div class="product-box">
+															<span class="sale_tag"></span>
+															<a href="<?= base_url(); ?>ecommerce/themes/images/ladies/2.jpg" data-lightbox="product-images">
+																<p><img src="<?= base_url(); ?>ecommerce/themes/images/ladies/2.jpg" alt="" /></p>
+															</a>
+															<h3><a href="product_detail.html"><?= $i['name']; ?></a></h3>
+															<h4><?= $i['description']; ?></h4>
+															<h4>₱<?= number_format($i['price'], 2); ?></h4>
+
+														</div>
+													</li>
+													<?php endforeach; ?>
+												</ul>
 											</div>
 										</div>
+									</div>
+
 									</div>
 								</div>                      
 							</div>
@@ -159,5 +163,12 @@
 					</div>
 				</div>
 			</section>
+			<script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    });
+</script>
+
 
 		

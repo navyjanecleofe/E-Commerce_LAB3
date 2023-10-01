@@ -28,5 +28,10 @@
 		<!-- Include FlexSlider CSS and JavaScript files -->
 		<link rel="stylesheet" href="<?= base_url(); ?>ecommerce/themes/flexslider/flexslider.css" type="text/css" media="screen" />
 		<script src="<?= base_url(); ?>ecommerce/themes/flexslider/jquery.flexslider.js"></script>
+
+		<!-- Include Lightbox2 CSS and JavaScript -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
     
 </head>

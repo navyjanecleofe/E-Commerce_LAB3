@@ -14,4 +14,7 @@ class UserController extends BaseController
         ];
         return view('ecommerce',$data);
     }
+    public function cart(){
+        return view('cart');
+    }
 }

@@ -48,7 +48,7 @@
 						animationSpeed: 600,
 						controlNav: false,
 						directionNav: true,
-						controlsContainer: ".flex-container" // the container that holds the flexslider
+						controlsContainer: ".flex-container" 
 					});
 				});
 			});
@@ -56,9 +56,9 @@
 		<script>
 			$(document).ready(function () {
 				$('.flexslider').flexslider({
-					animation: 'slide', // Choose the animation type (slide, fade, etc.)
-					controlNav: true,   // Show navigation controls
-					directionNav: true // Show direction navigation (next/prev)
+					animation: 'slide', 
+					controlNav: true,   
+					directionNav: true 
 				});
 			});
 		</script>
