@@ -8,10 +8,10 @@
 				<div class="span8">
 					<div class="account pull-right">
 						<ul class="user-menu">				
-							<li><a href="#">My Account</a></li>
-							<li><a href="cart.html">Your Cart</a></li>
-							<li><a href="checkout.html">Checkout</a></li>					
-							<li><a href="adminlog.php">Login</a></li>		
+							<li><a href="/home">My Account</a></li>
+							<li><a href="/cart">Your Cart</a></li>
+							<li><a href="/checkout">Checkout</a></li>					
+							<li><a href="/login">Login</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -20,7 +20,7 @@
         <div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><img src="<?= base_url(); ?>ecommerce/themes/images/logo.png" class="site_logo" alt=""></a>
+					<a href="/home" class="logo pull-left"><img src="<?= base_url(); ?>ecommerce/themes/images/logo.png" class="site_logo" alt=""></a>
 					<nav id="menu" class="pull-right">
 						<ul>
 							<li><a href="./products.html">Woman</a>					
@@ -86,8 +86,8 @@
 													<li class="span3" style="margin: 0 10px;">
 														<div class="product-box">
 															<span class="sale_tag"></span>
-															<a href="<?= base_url(); ?>ecommerce/themes/images/ladies/2.jpg" data-lightbox="product-images">
-																<p><img src="<?= base_url(); ?>ecommerce/themes/images/ladies/2.jpg" alt="" /></p>
+															<a href="<?= base_url(); ?>ecommerce/themes/images/ladies/<?= $i['images']; ?>.jpg" data-lightbox="product-images">
+																<p><img src="<?= base_url(); ?>ecommerce/themes/images/ladies/<?= $i['images']; ?>.jpg" alt="" /></p>
 															</a>
 															<h3><a href="product_detail.html"><?= $i['name']; ?></a></h3>
 															<h4><?= $i['description']; ?></h4>

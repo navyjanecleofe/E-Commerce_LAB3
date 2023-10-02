@@ -1,0 +1,14 @@
+CRITICAL - 2023-10-02 04:52:04 --> Invalid file: "ecommerce/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ecommerce/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce/header', [], true)
+ 3 APPPATH\Views\ecommerce.php(3): view('ecommerce/header')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\app\\Views\\ecommerce.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ecommerce', [], true)
+ 7 APPPATH\Controllers\UserController.php(15): view('ecommerce', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->home()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\TECHKNOWLODI\\Desktop\\logreg\\public\\index.php')

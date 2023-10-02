@@ -12,3 +12,4 @@ $routes->post('/authreg', 'AdminController::authreg');
 $routes->post('/authlog', 'AdminController::authlogin');
 $routes->get('/home', 'UserController::home');
 $routes->get('/cart', 'UserController::cart');
+$routes->get('/checkout', 'UserController::checkout');
