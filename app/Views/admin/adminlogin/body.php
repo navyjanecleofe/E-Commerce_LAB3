@@ -38,8 +38,15 @@
           <div class="col-4">
             <button type="submit" class="btn btn-primary btn-block">Sign In</button>
           </div>
+          
+           <!-- Logout Button -->
+           <div class="col-4">
+           <button type="submit" class="btn btn-danger btn-block">Logout</button>
+           </div>
+      
           <!-- /.col -->
         </div>
+        <a href="/register" class="text-center">I don't have a Account</a>
       </form>
     
     </div>

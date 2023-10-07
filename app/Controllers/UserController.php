@@ -20,4 +20,9 @@ class UserController extends BaseController
     public function checkout(){
         return view('checkout');
     }
+    public function dash(){
+        return view('dash');
+    }
+   
+    
 }

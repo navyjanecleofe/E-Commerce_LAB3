@@ -25,7 +25,7 @@ class AdminController extends BaseController
         'password' => 'required|min_length[1]|max_length[25]'
        ];
        if($this->validate($rules)){
-        $adminModel=new AdminModel();
+        $adminModel=new UserModel();
         $data =[
          'username'=>$this->request->getVar('username'),
          'password'=>password_hash($this->request->getVar('password'),PASSWORD_DEFAULT)
@@ -55,7 +55,7 @@ class AdminController extends BaseController
                     'isloggedIn'=>true,
                 ];
                 $session->set($ses_dat);
-                return redirect()->to('/register');
+                return redirect()->to('/home');
             }else{
                 $session->setFlashdata('msg','Password is incorrect' );
                 return redirect()->to('/login');
@@ -66,6 +66,13 @@ class AdminController extends BaseController
             return redirect()->to('/login');
         }
 
+    }
+
+    public function logout()
+    {
+        $session = session();
+        $session->destroy(); 
+        return redirect()->to('/'); 
     }
 }
 
